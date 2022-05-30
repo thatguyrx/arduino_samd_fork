@@ -245,6 +245,7 @@ void analogWrite(pin_size_t pin, int value)
         GCLK_CLKCTRL_ID(GCM_TCC0_TCC1), // TCC1
         GCLK_CLKCTRL_ID(GCM_TCC2_TC3),  // TCC2
         GCLK_CLKCTRL_ID(GCM_TCC2_TC3),  // TC3
+        GCLK_CLKCTRL_ID(GCM_TCC3),
         GCLK_CLKCTRL_ID(GCM_TC4_TC5),   // TC4
         GCLK_CLKCTRL_ID(GCM_TC4_TC5),   // TC5
         GCLK_CLKCTRL_ID(GCM_TC6_TC7),   // TC6

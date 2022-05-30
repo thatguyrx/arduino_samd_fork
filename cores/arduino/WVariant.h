@@ -326,6 +326,7 @@ typedef enum _EPWMChannel
 #define GCM_PTC (0x22U)
 #define GCM_I2S_0 (0x23U)
 #define GCM_I2S_1 (0x24U)
+#define GCM_TCC3 (0x25U)
 
 #ifdef __cplusplus
 } // extern "C"
