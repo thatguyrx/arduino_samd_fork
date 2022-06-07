@@ -276,7 +276,7 @@ void SystemInit(void)
    */
 
   /* Write Generic Clock Generator 1 configuration */
-  GCLK->GENDIV.reg = GCLK_GENDIV_ID(GENERIC_CLOCK_GENERATOR_OSC32K_DIV) | GCLK_GENDIV_DIV(16);
+  GCLK->GENDIV.reg = GCLK_GENDIV_ID(GENERIC_CLOCK_GENERATOR_OSC32K_DIV) | GCLK_GENDIV_DIV(8);
   while (GCLK->STATUS.reg & GCLK_STATUS_SYNCBUSY)
     ;
 
